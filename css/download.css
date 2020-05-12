@@ -1,0 +1,88 @@
+html, body {
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+}
+.containter {
+    background-color: white;
+    max-width: 500px;
+    margin: 0 auto;
+    min-height: 100%;
+    overflow: hidden;
+}
+.font30 {
+    font-size: 30
+}
+.red {
+    color: red
+}
+
+footer {
+    background-color: fuchsia;
+    max-width: 700px;
+    text-align: center;
+    margin: -60px auto 0 auto;
+    height: 60px;
+}
+footer p{
+    display: inline;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+.topnav {
+    background-color: rgb(44, 44, 44);
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.selected {
+    color: yellow
+}
+li a:hover {
+    color: rgb(255, 255, 81);
+}
+.m1 {
+    margin-left: 3px;
+    margin-right: 5px;
+    text-align: justify;
+}
+@media screen and (max-width: 500px){
+    ul.topnav li {float: none}
+}
+.noLs {
+    margin-left: -10px;
+}
+.fLeft {
+    float: left;
+}
+.sc1 {
+    max-width: auto;
+    margin: 0 auto;
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.text-block {
+    position: absolute;
+    top: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.t1 {
+    width: 400px;
+    float: left;
+}
