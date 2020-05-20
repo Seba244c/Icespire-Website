@@ -13,20 +13,6 @@ html, body {
 .font30 {
     font-size: 30
 }
-.red {
-    color: red
-}
-
-footer {
-    background-color: fuchsia;
-    max-width: 700px;
-    text-align: center;
-    margin: -60px auto 0 auto;
-    height: 60px;
-}
-footer p{
-    display: inline;
-}
 ul {
     list-style-type: none;
     margin: 0;
@@ -68,21 +54,6 @@ li a:hover {
 .fLeft {
     float: left;
 }
-.sc1 {
-    max-width: auto;
-    margin: 0 auto;
-    min-height: 100%;
-    overflow: hidden;
-    position: relative;
-}
-.text-block {
-    position: absolute;
-    top: 20px;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.t1 {
-    width: 400px;
-    float: left;
+.fRight {
+    float: right;
 }
